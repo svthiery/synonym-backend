@@ -41,6 +41,8 @@ ActiveRecord::Schema.define(version: 2021_02_23_191016) do
     t.string "headword"
     t.string "synonyms", array: true
     t.string "antonyms", array: true
+    t.boolean "offensive"
+    t.string "part_of_speech"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
