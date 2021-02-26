@@ -13,26 +13,36 @@ Game.destroy_all
 Word.destroy_all
 Round.destroy_all
 
-single_word_array = [
-    'show',
-    'painting',
-    'passion',
-    'party'
-]
+# single_word_array = [
+#     'show',
+#     'painting',
+#     'passion',
+#     'party'
+# ]
 word_array = []
 
-single_word_array.each do |word|
-    byebug
-    word_object = RestClient.get `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/#{word}?key=766b7153-1d88-4964-a85c-30a77086c996`
-    parsed_word_object = JSON.parse(word_object)
-    word_array.push(parsed_word_object)
-end
+# single_word_array.each do |word|
+#     byebug
+#     word_object = RestClient.get `https://www.dictionaryapi.com/api/v3/references/thesaurus/json/#{word}?key=766b7153-1d88-4964-a85c-30a77086c996`
+#     parsed_word_object = JSON.parse(word_object)
+#     word_array.push(parsed_word_object)
+# end
 
 
-# game = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/game?key=766b7153-1d88-4964-a85c-30a77086c996')
-# word_array.push(game)
+game = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/game?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(game)
 
+party = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/party?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(party)
 
+assignment = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/assignment?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(assignment)
+
+walk = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/walk?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(walk)
+
+try = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/walk?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(try)
 
 word_array.each do |word|
     headword = word[0]["meta"]["id"]
