@@ -35,14 +35,20 @@ word_array.push(game)
 party = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/party?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(party)
 
-assignment = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/assignment?key=766b7153-1d88-4964-a85c-30a77086c996')
-word_array.push(assignment)
+car = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/car?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(car)
 
-walk = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/walk?key=766b7153-1d88-4964-a85c-30a77086c996')
-word_array.push(walk)
+mean = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/mean?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(mean)
 
-try = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/walk?key=766b7153-1d88-4964-a85c-30a77086c996')
+try = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/try?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(try)
+
+travel = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/travel?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(travel)
+
+stroll = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stroll?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(stroll)
 
 word_array.each do |word|
     headword = word[0]["meta"]["id"]
