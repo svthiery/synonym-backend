@@ -9,7 +9,8 @@ class UsersController < ApplicationController
     def login
         user = User.find_by(username: params[:username])
         if user && user.authenticate(params[:password])
-            render json: user
+            token = JWT.encode({ user_id: user.id }, 'my_secret', 'HS256')
+            render json: { user: UserSerializer.new(user), token: token }
         else 
             render json: { errors: ["Invalid username or password"] }, status: :unauthorized
         end
