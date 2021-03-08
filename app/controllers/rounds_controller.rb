@@ -23,6 +23,6 @@ class RoundsController < ApplicationController
     private
 
     def round_params
-        params.permit(:word_id, :game_id, :score)
+        params.permit(:word_id, :game_id, :antonym_id, :score)
     end
 end

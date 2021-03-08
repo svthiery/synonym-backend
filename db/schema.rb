@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_07_210435) do
+ActiveRecord::Schema.define(version: 2021_03_08_193926) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "antonyms", force: :cascade do |t|
+    t.string "headword"
+    t.string "synonyms", array: true
+    t.string "antonyms", array: true
+    t.boolean "offensive"
+    t.string "part_of_speech"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "games", force: :cascade do |t|
     t.integer "user_id"

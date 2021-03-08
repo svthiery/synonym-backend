@@ -12,6 +12,7 @@ User.destroy_all
 Game.destroy_all
 Word.destroy_all
 Round.destroy_all
+Antonym.destroy_all
 
 # single_word_array = [
 #     'show',
@@ -50,6 +51,9 @@ word_array.push(travel)
 stroll = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stroll?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(stroll)
 
+beautiful = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stroll?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(beautiful)
+
 word_array.each do |word|
     headword = word[0]["meta"]["id"]
     synonyms = word[0]["meta"]["syns"][0]
@@ -58,6 +62,47 @@ word_array.each do |word|
     part_of_speech = word[0]["fl"]
 
     Word.create(
+        headword: headword,
+        synonyms: synonyms,
+        antonyms: antonyms,
+        offensive: offensive,
+        part_of_speech: part_of_speech
+    )
+end
+
+# ------------------------------------------- ANTONYM ------------------------------------
+antonym_array = []
+
+
+beautiful = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/beautiful?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(beautiful)
+
+wet = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/wet?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(wet)
+
+easy = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/easy?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(easy)
+
+silly = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/silly?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(silly)
+
+clean = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/clean?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(clean)
+
+absent = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/absent?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(absent)
+
+stylish = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stylish?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(stylish)
+
+antonym_array.each do |word|
+    headword = word[0]["meta"]["id"]
+    synonyms = word[0]["meta"]["syns"][0]
+    antonyms = word[0]["meta"]["ants"][0]
+    offensive = word[0]["meta"]["offensive"]
+    part_of_speech = word[0]["fl"]
+
+    Antonym.create(
         headword: headword,
         synonyms: synonyms,
         antonyms: antonyms,
