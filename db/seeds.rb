@@ -51,7 +51,7 @@ word_array.push(travel)
 stroll = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stroll?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(stroll)
 
-beautiful = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stroll?key=766b7153-1d88-4964-a85c-30a77086c996')
+beautiful = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/beautiful?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(beautiful)
 
 word_array.each do |word|
