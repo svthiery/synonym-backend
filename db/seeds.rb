@@ -459,6 +459,117 @@ word_array.push(heartfelt)
 stuck = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stuck?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(stuck)
 
+capable = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/capable?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(capable)
+
+pants = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/pants?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(pants)
+
+underwear = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/underwear?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(underwear)
+
+margin = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/margin?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(margin)
+
+street = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/street?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(street)
+
+canal = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/canal?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(canal)
+
+approve = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/approve?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(approve)
+
+disavow = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/disavow?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(disavow)
+
+timid = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/timid?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(timid)
+
+brittle = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/brittle?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(brittle)
+
+comical = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/comical?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(comical)
+
+funny = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/funny?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(funny)
+
+carpet = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/carpet?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(carpet)
+
+decoration = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/decoration?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(decoration)
+
+promise = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/promise?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(promise)
+
+fancy = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/fancy?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(fancy)
+
+perfumed = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/perfumed?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(perfumed)
+
+creative = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/creative?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(creative)
+
+ambiguous = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/ambiguous?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(ambiguous)
+
+muggy = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/muggy?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(muggy)
+
+alternative = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/alternative?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(alternative)
+
+spotless = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/spotless?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(spotless)
+
+organized = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/organized?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(organized)
+
+rupture = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/rupture?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(rupture)
+
+shifty = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/shifty?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(shifty)
+
+banned = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/banned?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(banned)
+
+false_syn = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/false?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(false_syn)
+
+unspoken = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/unspoken?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(unspoken)
+
+crash = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/crash?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(crash)
+
+trash = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/trash?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(trash)
+
+hunt = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/hunt?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(hunt)
+
+epic = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/epic?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(epic)
+
+specific = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/specific?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(specific)
+
+officious = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/officious?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(officious)
+
+nosy = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/nosy?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(nosy)
+
+fragile = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/fragile?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(fragile)
+
+reasonable = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/reasonable?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(reasonable)
+
 word_array.each do |word|
     headword = word[0]["meta"]["id"]
     synonyms = word[0]["meta"]["syns"][0]
@@ -673,6 +784,63 @@ antonym_array.push(fake)
 
 true_ant = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/fake?key=766b7153-1d88-4964-a85c-30a77086c996')
 antonym_array.push(true_ant)
+
+capable = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/capable?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(capable)
+
+approve = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/approve?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(approve)
+
+disavow = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/disavow?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(disavow)
+
+timid = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/timid?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(timid)
+
+separated = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/separated?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(separated)
+
+comical = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/comical?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(comical)
+
+funny = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/funny?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(funny)
+
+perfumed = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/perfumed?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(perfumed)
+
+creative = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/creative?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(creative)
+
+upset = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/upset?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(upset)
+
+obvious = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/obvious?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(obvious)
+
+ambiguous = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/ambiguous?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(ambiguous)
+
+plump = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/plump?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(plump)
+
+spotless = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/spotless?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(spotless)
+
+shifty = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/shifty?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(shifty)
+
+banned = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/banned?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(banned)
+
+unspoken = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/unspoken?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(unspoken)
+
+fragile = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/fragile?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(fragile)
+
+reasonable = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/reasonable?key=766b7153-1d88-4964-a85c-30a77086c996')
+antonym_array.push(reasonable)
 
 antonym_array.each do |word|
     headword = word[0]["meta"]["id"]
