@@ -153,8 +153,8 @@ word_array.push(tax)
 money = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/money?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(money)
 
-type = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/type?key=766b7153-1d88-4964-a85c-30a77086c996')
-word_array.push(type)
+type_syn = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/type?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(type_syn)
 
 important = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/important?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(important)
@@ -285,8 +285,8 @@ word_array.push(ball)
 stony = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/stony?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(stony)
 
-oqaque = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/oqaque?key=766b7153-1d88-4964-a85c-30a77086c996')
-word_array.push(oqaque)
+opaque = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/opaque?key=766b7153-1d88-4964-a85c-30a77086c996')
+word_array.push(opaque)
 
 cheery = JSON.parse(RestClient.get 'https://www.dictionaryapi.com/api/v3/references/thesaurus/json/cheery?key=766b7153-1d88-4964-a85c-30a77086c996')
 word_array.push(cheery)
