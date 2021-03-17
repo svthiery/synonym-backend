@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'rest-client'
 
+# test
 
 User.destroy_all
 Game.destroy_all
