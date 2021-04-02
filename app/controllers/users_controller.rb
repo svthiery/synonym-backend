@@ -40,8 +40,8 @@ class UsersController < ApplicationController
         render json: @current_user
     end
 
-    def delete
-    end
+    # def delete
+    # end
 
     private
 

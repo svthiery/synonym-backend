@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  resources :antonyms
-  resources :rounds
-  resources :words
-  resources :games
+  resources :antonyms, only: [:index, :show]
+  resources :rounds, only: [:index, :show, :create, :update]
+  resources :words, only: [:index, :show]
+  resources :games, only: [:index, :show, :create, :update]
   resources :users
   post "/login", to: "users#login"
   post "/signup", to: "users#signup"
